@@ -2,11 +2,11 @@
 [![Java CI - SmartGradeApp](https://github.com/abdelhamidkada/SmartGradeApp/actions/workflows/java-ci.yml/badge.svg)](https://github.com/abdelhamidkada/SmartGradeApp/actions/workflows/java-ci.yml)
 
 > 🇫🇷 Version française plus bas  
-> 🇬🇧 English version below
+> us English version below
 
 ---
 
-## 🇬🇧 SmartGradeApp – Overview
+## us SmartGradeApp – Overview
 
 SmartGradeApp is a Java console application for managing students, modules, and (later) their grades.  
 It is a learning project designed to practice:
@@ -56,7 +56,8 @@ SmartGradeApp/
  └── .github/
      └── workflows/
          └── java-ci.yml    # GitHub Actions (CI)
-🛠 Technologies
+ ```
+### 🛠 Technologies
 Technology	Role
 Java 17	Main programming language
 Maven	Build & dependency management
@@ -64,7 +65,7 @@ Git/GitHub	Version control
 GitHub Actions	Continuous Integration (CI)
 IntelliJ IDEA	IDE used for development
 
-▶ How to run the project
+### ▶ How to run the project
 Compile with Maven:
 
 bash
@@ -72,7 +73,7 @@ Copy code
 mvn clean compile
 Then run the SmartGradeApp main class from your IDE (IntelliJ), or later using a Maven exec plugin.
 
-🔮 Roadmap
+### 🔮 Roadmap
 🟡 v2 — Module management
 ModuleService
 
@@ -106,7 +107,7 @@ Docker support
 
 Unit tests
 
-👤 Author
+### 👤 Author
 Abdelhamid KADA
 Student in SITD – Interested in backend development and Java.
 GitHub: https://github.com/abdelhamidkada
@@ -127,7 +128,7 @@ Git & GitHub Actions (Intégration Continue)
 
 Le projet sera progressivement étendu pour utiliser MySQL + JDBC, puis éventuellement une API REST.
 
-✅ Fonctionnalités actuelles (v1)
+### ✅ Fonctionnalités actuelles (v1)
 ✔ Gestion des étudiants
 Ajouter un étudiant
 
@@ -148,8 +149,8 @@ Build automatique à chaque push via GitHub Actions
 
 Java 17 configuré dans pom.xml et dans le workflow CI
 
-🧱 Structure du projet
-text
+### 🧱 Structure du projet
+``` text
 Copy code
 SmartGradeApp/
  ├── src/
@@ -166,7 +167,8 @@ SmartGradeApp/
  └── .github/
      └── workflows/
          └── java-ci.yml    # Workflow GitHub Actions (CI)
-🛠 Technologies utilisées
+```
+### 🛠 Technologies utilisées
 Technologie	Rôle
 Java 17	Langage principal
 Maven	Build & gestion des dépendances
@@ -174,7 +176,7 @@ Git / GitHub	Gestion de versions
 GitHub Actions	Intégration Continue (CI)
 IntelliJ IDEA	IDE utilisé pour le développement
 
-▶ Comment exécuter le projet
+### ▶ Comment exécuter le projet
 Compilation avec Maven :
 
 bash
@@ -183,7 +185,7 @@ mvn clean compile
 Ensuite, exécuter la classe SmartGradeApp (méthode main) depuis IntelliJ
 ou via Maven plus tard avec un plugin d’exécution.
 
-🔮 Roadmap (évolution prévue)
+### 🔮 Roadmap (évolution prévue)
 🟡 v2 — Gestion des modules
 ModuleService
 
@@ -215,7 +217,7 @@ Docker
 
 Tests unitaires
 
-👤 Auteur
+### 👤 Auteur
 Abdelhamid KADA
 Étudiant en SITD — Passionné par le développement backend & Java.
 GitHub : https://github.com/abdelhamidkada
